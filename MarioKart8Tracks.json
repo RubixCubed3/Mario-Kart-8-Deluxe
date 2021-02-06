@@ -1,0 +1,80 @@
+{
+    "Original": {
+        "MushroomCup": {
+            "Track1": "Mario Kart Stadium",
+            "Track2": "Water Park",
+            "Track3": "Sweet Sweet Canyon",
+            "Track4": "Thwomp Ruins"
+        }
+        "FlowerCup": {
+            "Track5": "Mario Circuit",
+            "Track6": "Toad Harbor",
+            "Track7": "Twisted Mansion",
+            "Track8": "Shy Guy Falls"
+        }
+        "StarCup": {
+            "Track9": "Sunshine Airport",
+            "Track10": "Dolphin Sholes",
+            "Track11": "Electrodrome",
+            "Track12": "Mount Wario"
+        }
+        "SpecialCup": {
+            "Track13": "Cloudto Cruise",
+            "Track14": "Bone-Dry Dunes",
+            "Track15": "Bowser's Castle",
+            "Track16": "Rainbow Road"
+        }
+    }
+    "Retro": {
+        "ShellCup": {
+            "Track17": "Wii Moo Moo Meadows",
+            "Track18": "GBA Mario Circuit",
+            "Track19": "DS Cheep Cheep Beach",
+            "Track20": "N64 Toad's Turnpike"
+        }
+        "BananaCup": {
+            "Track21": "GCN Dry Dry Desert",
+            "Track22": "SNES Donut Plains 3",
+            "Track23": "N64 Royal Raceway",
+            "Track24": "3DS DK Jungle"
+        }
+        "LeafCup": {
+            "Track25": "DS Wario Stadium",
+            "Track26": "GCN Sherbet Land",
+            "Track27": "3DS Music Park",
+            "Track28": "N64 Yoshi Valley"
+        }
+        "LightningCup": {
+            "Track29": "DS Tick-Tock Clock",
+            "Track30": "3DS Pirhana Plant Slide",
+            "Track31": "Wii Grumble Volcano",
+            "Track32": "N64 Rainbow Road"
+        }
+    }
+    "DLC": {
+        "EggCup": {
+            "Track33": "GCN Yoshi Circuit",
+            "Track34": "Excitebike Arena",
+            "Track35": "Dragon Driftway",
+            "Track36": "Mute City"
+        }
+        "TriforceCup": {
+            "Track37": "Wii Wario's Gold Mine",
+            "Track38": "SNES Rainbow Road",
+            "Track39": "Ice Ice Outpost",
+            "Track40": "Hyrule Circuit"
+        }
+        "CrossingCup": {
+            "Track41": "GCN Baby Park",
+            "Track42": "GBA Cheese Land",
+            "Track43": "Wild Woods",
+            "Track44": "Animal Crossing"
+        }
+        "BellCup": {
+            "Track45": "3DS Neo Bowser City",
+            "Track46": "GBA Ribbon Road",
+            "Track47": "Super Bell Subway",
+            "Track48": "Big Blue"
+        }
+    }
+}

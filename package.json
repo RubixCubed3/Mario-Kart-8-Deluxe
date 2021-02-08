@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node_api": "github:samyvera/mk8_node_api"
+  }
+}

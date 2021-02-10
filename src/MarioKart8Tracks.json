@@ -1,5 +1,5 @@
 {
-    "Original": {
+    "Nitro": {
         "MushroomCup": {
             "Track1": "Mario Kart Stadium",
             "Track2": "Water Park",
@@ -14,12 +14,12 @@
         },
         "StarCup": {
             "Track9": "Sunshine Airport",
-            "Track10": "Dolphin Sholes",
+            "Track10": "Dolphin Shoals",
             "Track11": "Electrodrome",
             "Track12": "Mount Wario"
         },
         "SpecialCup": {
-            "Track13": "Cloudto Cruise",
+            "Track13": "Cloudtop Cruise",
             "Track14": "Bone-Dry Dunes",
             "Track15": "Bowser's Castle",
             "Track16": "Rainbow Road"
@@ -46,7 +46,7 @@
         },
         "LightningCup": {
             "Track29": "DS Tick-Tock Clock",
-            "Track30": "3DS Pirhana Plant Slide",
+            "Track30": "3DS Piranha Plant Slide",
             "Track31": "Wii Grumble Volcano",
             "Track32": "N64 Rainbow Road"
         }

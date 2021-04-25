@@ -14,5 +14,5 @@ export const getNewRating = function (myRating, opponentRating, myGameResult) {
 
 export default {
     getRatingDelta: getRatingDelta,
-    getNewRating: getNewRating
+    getNewRating: getNewRating,
 };

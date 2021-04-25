@@ -1,5 +1,31 @@
 {
   "dependencies": {
     "node_api": "github:samyvera/mk8_node_api"
-  }
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "name": "Mario-Kart-8-Deluxe",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack serve --config webpack.config.js",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubixCubed3/Mario-Kart-8-Deluxe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubixCubed3/Mario-Kart-8-Deluxe/issues"
+  },
+  "homepage": "https://github.com/RubixCubed3/Mario-Kart-8-Deluxe#readme",
+  "description": ""
 }

@@ -60,50 +60,6 @@ function SaveTrack() {
   window.localStorage.setItem('tracks', JSON.stringify(storedValues));
 }
 
-let flatTracks = flattenTracks(tracks);
-let trackName = document.querySelector('#track-name');
-let character = document.querySelector('#character');
-let body = document.querySelector('#body');
-let tire = document.querySelector('#tire');
-let glider = document.querySelector('#glider');
-let previous = document.querySelector('#previous');
-let next = document.querySelector('#next');
-let toJson = document.querySelector('#toJson');
-let textarea = document.querySelector('textarea');
-
-let currentTrack = 0;
-let storedValues = Array(flatTracks.length);
-
-let ls = window.localStorage.getItem('tracks');
-if (ls) {
-  storedValues = JSON.parse(ls);
-}
-
-convertToOptions(driver, character);
-convertToOptions(bodies, body);
-convertToOptions(tires, tire);
-convertToOptions(gliders, glider);
-
-updateValues();
-
-function SaveTrack() {
-  let selectedCharacter = character.selectedIndex;
-  let selectedBody = body.selectedIndex;
-  let selectedTire = tire.selectedIndex;
-  let selectedGlider = glider.selectedIndex;
-
-  storedValues[currentTrack] = {
-    character: selectedCharacter,
-    body: selectedBody,
-    tire: selectedTire,
-    glider: selectedGlider,
-  };
-
-  console.log(storedValues);
-
-  window.localStorage.setItem('tracks', JSON.stringify(storedValues));
-}
-
 function updateValues() {
   if (storedValues[currentTrack] === undefined || storedValues[currentTrack] === null) {
     storedValues[currentTrack] = {
